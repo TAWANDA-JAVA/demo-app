@@ -8,6 +8,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import static org.assertj.core.api.Assertions.*;
 
 @SpringBootTest
+//testing git push
 public class JdbcBootApplicationTests {
     public static final String QUERY = "SELECT count(*) FROM T_ACCOUNT";
 
